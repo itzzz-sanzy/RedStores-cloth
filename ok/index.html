@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Stores | Ecommerce website !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+    <div class="container">
+
+
+    <div class="navbar">
+
+        <!-- logo -->
+        <div class="logo">
+            <img src="/ok/logo.png" width="125px" alt="">
+        </div>
+
+        <!-- nav -->
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="" class="home">HOME</a></li>
+                   <li> <a href="" class="PRODUCT">PRODUCT</a> </li>
+                    <li> <a href="" class="ABOUT">ABOUT</a> </li>
+                    <li> <a href="" class="CONTACT">CONTACT</a> </li>
+                   <li> <a href="" class="ACCOUNT">ACCOUNT</a> </li>
+
+            </ul>
+        </nav>
+        <img src="/ok/cart.png" width="32px" height="32px" alt="">
+
+        <img src="/ok/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout <br>A New Style !</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>At dignissimos libero iste expedita nemo laboriosam eum et.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="/ok/image1.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<!-- category features  -->
+
+<section class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="/ok/category-1.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="/ok/category-2.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="/ok/category-3.jpg" alt="">
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<div class="small-container">
+    <h2 class="title">Featured Products </h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/ok/product-1.jpg" alt="">
+            <h4>Red Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-2.jpg" alt="">
+            <h4>Axon Sports Shoes </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>₹999</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-3.jpg" alt="">
+            <h4>MlW jhons Joggers </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star "></i>
+            </div>
+            <p>₹599</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-4.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <h2 class="title">Latest Products </h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/ok/product-5.jpg" alt="">
+            <h4>Red Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-6.jpg" alt="">
+            <h4>Axon Sports Shoes </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>₹999</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-7.jpg" alt="">
+            <h4>MlW jhons Joggers </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star "></i>
+            </div>
+            <p>₹599</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-8.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-9.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-10.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-11.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-4">
+            <img src="/ok/product-12.jpg" alt="">
+            <h4>Blue Printed T-Shirt </h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+    </div>
+</div>
+
+<!-- end of product -->
+
+
+<!-- start of exclusive product -->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="/ok/exclusive.png" class="offer-img" alt="">
+            </div>
+            <div class="col-2">
+                <p>Exclusively available on red stores</p>
+                <h1>Smart band 4</h1>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum cum placeat et veniam quae  laudantium voluptates nesciunt.</small>
+                <a href="" class="btn">Grab It &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- testimonial session -->
+<section class="testimonial">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae expedita id voluptatum dignissimos voluptatibus veritatis. Voluptates!</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <img src="/ok/user-2.png" alt="">
+            <h3>Sean Boatman</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae expedita id voluptatum dignissimos voluptatibus veritatis. Voluptates!</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <img src="/ok/user-3.png" alt="">
+            <h3>Metalla johenson</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae expedita id voluptatum dignissimos voluptatibus veritatis. Voluptates!</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="/ok/user-1.png" alt="">
+            <h3>Jeniffer Ambrose</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- brands -->
+ 
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/ok/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/ok/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/ok/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/ok/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/ok/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- footer section -->
+<section class="footer">
+    <div class="container">
+    <div class="row">
+        <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>download our app for Android and Ios Mobile phones   </p>
+            <div class="app-logo">
+                <img src="/ok/app-store.png" alt="">
+                <img src="/ok/play-store.png" alt="">
+            </div>
+        </div>
+        <div class="footer-col-2">
+            <img src="/ok/logo-white.png" alt="">
+            <p>our Purpose is to Sustainably make the pleasure and benefits of sports Accessibility to the many</p>
+        </div>
+        <div class="footer-col-3">
+            <h3>Usefull Links </h3>
+           <ul>
+             <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Join Affliation</li>
+            <li>Return Policies</li>
+        </ul>
+        </div>
+        
+        <div class="footer-col-3">
+            <h3>Follow us on </h3>
+           <ul>
+             <li><a href="">Facebook</a></li>
+             <li><a href="">Instagram</a></li>
+             <li><a href="">Twitter</a></li>
+             <li><a href="">Youtube</a></li>
+        </ul>
+        </div>
+        </div>
+        <hr>
+    <p class="copyright">Copyright 2024 - itzzz-sanzy</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- --------------- script -------------------- -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+    
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
